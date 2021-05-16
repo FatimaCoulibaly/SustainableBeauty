@@ -80,29 +80,6 @@
   margin-top: 20px;
 }
 
-.h2 {
-position: absolute;
-height: 15px;
-left: 67px;
-top: 20px;
-
-font-family: Catamaran, Semibold;
-font-size: 0px;
-color: #372C2C;
-padding-top: 30px;
-padding-left: 70px;
-display: inline-block;
-}
-
-
-.h2 a:hover {
-  background-color: #F6F1E1;
-  color: #E4BBA5;
-  transition-duration: 0.4s;
-  font-size: 30px;
-  text-underline-position: 
-}
-
 
 .subtext {
   font-family: Noto+Sans+JP;
@@ -117,7 +94,30 @@ display: inline-block;
 }
 
 
+.link a:visited { 
+ text-decoration: none; 
+ color: #171212; 
+}
 
+
+.link a:hover {
+  color: #431FD6;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+span {
+    display:inline-block;
+    border-bottom:.1px solid #171212;
+    padding-bottom:.1px;
+}
+
+a:hover span {
+  display:inline-block;
+  border-bottom:.1px solid #431FD6;
+  padding-bottom:.1px;
+}
 
 .capitalize:hover {
   color: #FFFFFF;
@@ -138,38 +138,7 @@ display: inline-block;
 }
 
 
-.button {
-  border: #98FF98;
-  color: #05100C;
-  padding: 15px 32px;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-  transition-duration: 0.2s;
-  margin-right: 40px;
-  margin-left: 40px;
-  text-align: center;  
-}
-
-
-.button1 {
-  background-color: #F0ECFF; 
-  color: #2D148F; 
-  border: 2px solid #2D148F;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;  
-}
-
-
-.button1:hover {
-  background-color: #5F33FF;
-  color: #EBECFF;
-  border: 2px solid #F0ECFF;
-}
-
 </style>
-
 
 
 <body>
@@ -194,17 +163,14 @@ display: inline-block;
 <iframe width="800" height="8252" frameborder="0"scrolling="no" style="overflow-y:hidden;" src="https://create.piktochart.com/embed/54255941-how-does-covid-19-affect-e-commerce-in-the-beauty-industry" ></iframe>
 
 
-
-<div class="subtext"><b>
-We have a survey about online shopping habits. It's optional and anonymous. You can fill it out <a href="https://qzjfmhn87u1.typeform.com/to/HnSiHvv9">here</a>. Thank you for your time!</b></div> 
-
-
-
-
-
-
+<div class="subtext">
+<div class="link">
+We have a survey about online shopping habits. It's optional and anonymous. You can fill it out
+<a href="https://qzjfmhn87u1.typeform.com/to/HnSiHvv9" target="_blank">
+  <b><span>here</a></span></b>. Thank you for your time!</div> 
 
 
 </body>
+
 
 </html>
