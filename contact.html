@@ -67,47 +67,45 @@
 
 
 .heading {
-	font-family: 'Playfair Display', serif;
-	color: #074906;
-	-webkit-transition: color 2s;
-	transition: color 2s;
-	font-size: 40px;
-	text-align: center;
-	background-color: transparent;
-	padding: 5px 10px;
-	margin: 100px;
-	margin-top: 60px;
-
+  font-family: 'Playfair Display', serif;
+  color: #074906;
+  font-size: 30px;
+  text-align: center;
+  background-color: transparent;
+  padding: 5px 100px;
+  margin: 100px;
+  margin-top: 40px;
 }
-
 
 .beautyphoto {
   text-align: center;
-  margin-top: 20px;
+  margin-top: -30px;
 }
 
 
-.h2 {
-position: absolute;
-height: 15px;
-left: 67px;
-top: 20px;
-font-family: Catamaran, Semibold;
-font-size: 0px;
-color: #372C2C;
-padding-top: 30px;
-padding-left: 70px;
-display: inline-block;
+.filler {
+  font-family: Noto+Sans+JP;
+  color: #171212;
+  font-size: 23px;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 90px;
+  margin-top: 50px;
+  line-height: 1.8;
 }
 
-.h2 a:hover {
-  background-color: #F6F1E1;
-  color: #E4BBA5;
-  transition-duration: 0.4s;
-  font-size: 30px;
-  text-underline-position: 
+ .photocredit {
+  font-family: Noto+Sans+JP;
+  color: #372C2C;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 230px;
+  margin-right: 230px;
+  line-height: 1.8;
 }
-
 
 .subtext {
   font-family: 'Raleway', sans-serif;
@@ -119,6 +117,33 @@ display: inline-block;
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+
+.link a:visited { 
+ text-decoration: none; 
+ color: #171212; 
+}
+
+
+.link a:hover {
+  color: #431FD6;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+span {
+    display:inline-block;
+    border-bottom:.1px solid #171212;
+    padding-bottom:.1px;
+}
+
+a:hover span {
+  display:inline-block;
+  border-bottom:.1px solid #431FD6;
+  padding-bottom:.1px;
+}
+
 
 .button {
   border: #98FF98;
@@ -170,10 +195,20 @@ display: inline-block;
 <h1> Say Hi! </h1>
 </div>
 
+
+<div class="filler">
+  <p>We love to hear any questions or feeback from you all.</p>
+</div>
 <div class="beautyphoto">
 <img src="https://lh3.googleusercontent.com/UU-Je9PJY8xv4f6woaSx5zCvrxLjmhc1STol8FelprwmcUqGtgBbjtWW_mnSThO9BOBfIe8bi-F92OYtHQoJVedmCbDKZviKJeCWBk1OYqyxKyPqVFOkvYubfXc5w2KlI_KFi6bVIg=w2400" width="700" height="500">
 </div>
 
+
+<div class="photocredit">
+<div class="link">
+Photo by <a href="https://unsplash.com/@auttgood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Autumn Goodman</a> on <a href="https://unsplash.com/photos/vTL_qy03D1I">Unsplash</a>
+</div>
+</div>
 
 
 <div class="subtext">
@@ -181,7 +216,7 @@ Don't be a stranger you can talk to us. Fill out a form and send us any comments
 </div>
 
 
-<a href="https://qzjfmhn87u1.typeform.com/to/L3iiT5j1">
+<a href="https://qzjfmhn87u1.typeform.com/to/L3iiT5j1" target="_blank">
 <button class="button button1">Survey Form</button>
 </a> 
 
